@@ -1,0 +1,124 @@
+body{
+margin: 0;
+padding: 0;
+/*The image used*/
+background-image: url("bg.jpg");
+/* Full Height */
+background-size: cover;
+ background-position: center;
+  background-repeat: no-repeat;
+  /* Center and scale the image nicely */
+background-position: center;
+
+
+}
+.header-area{
+	background-color: grey;
+
+
+}
+img{
+	width: 100px;
+	height: 100px;
+	transition: 1s;
+
+}
+
+a{
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+img:hover{
+	transform: rotate(360deg);
+}
+
+p{
+	background: #58B19F;
+	display: inline-block;
+	text-align: center;
+	font-size: 25px;
+	border: 3px solid;
+	color: #FEA47F;
+	float: right;
+	margin-right: 15px;
+	margin-left: 15px;
+
+}
+p:hover{
+	background: #f39c12;
+}
+h1{
+	background: #58B19F;
+	display: inline-block;
+	text-align: center;
+	font-size: 25px;
+	border: 3px solid;
+	float: right;
+	margin-left: 15px;
+	margin-top: 24px;
+	color: #FEA47F;
+	
+}
+h1:hover{
+	background: #c7ecee;
+
+}
+h2{
+	background: #F79F1F;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 40px;
+	font-family: Algerian;
+
+	
+}
+h3{
+	background: #12CBC4;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	font-size: 30px;
+	margin-top: 0px;
+	font-family: Arial;
+	word-spacing: 1px;
+}
+.footer p{
+	background: navy;
+	font-size: 15px;
+	border: none;
+	float: none;
+	margin: none;
+	color: white;
+}
+.menu{
+	margin: 200px;
+	margin-top: 0px; 
+}
+.menu ul{
+	margin: 0 auto;
+	list-style: none;
+}
+li{
+		background-color: grey;
+		margin: auto;
+	float: left;
+	width: 200px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	transition: 0.5s;
+
+}
+ul li:hover{
+	background: radial-gradient(grey, black 350%);
+	font-size: 24px;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+
